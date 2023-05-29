@@ -1,0 +1,60 @@
+.container {
+  background-color: #242424;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container_tarefas {
+  width: 60%;
+  height: 70%;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.criados_tarefas {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}
+.criados_tarefas input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+  background: none;
+}
+.criados_tarefas button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 10px;
+  border: none;
+  right: 1%;
+  background-color: #242424;
+  font-size: 20px;
+}
+.lista_tarefas {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
