@@ -1,0 +1,23 @@
+.tarefa {
+  width: 90%;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #141414;
+}
+button {
+  background-color: transparent;
+  border: 2px solid #242424;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+h1.feito {
+  text-decoration: line-through;
+}

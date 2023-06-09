@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Tarefa from "./components/Tarefa";
 
 function App() {
   const [Tarefas, setTarefas] = useState([""]);
@@ -19,9 +20,9 @@ function App() {
 
           <div className="lista_tarefas">
             {/* Componente da Tarefa */}
-            <div>
-              <h1>Tarefa 1</h1>
-            </div>
+            <Tarefa name="Tarefa 1" />
+            <Tarefa name="Tarefa 1" />
+            <Tarefa name="Tarefa 1" />
           </div>
         </div>
       </main>
