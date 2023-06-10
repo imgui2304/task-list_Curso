@@ -3,8 +3,7 @@ import "./App.css";
 import Tarefa from "./components/Tarefa";
 
 function App() {
-  const [Tarefas, setTarefas] = useState([""]);
-  const [NomeDaTarefa, setNomeDaTarefa] = useState("");
+
   function AdicionarTarefa() {
     // Código
   }
